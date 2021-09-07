@@ -14,7 +14,7 @@ public class Outer {
 
         public String toString() {
 
-            return "" + artist;
+            return "Artist: " +artist+ "\n"+ "Name: " + name + "\n"+"Listeners: " + listeners + "\n"+"Playcount: " + playcount + "\n";
         }
     }
 }
